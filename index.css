@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+}
+.box2{
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    margin: 20px 0px;
+   
+}
+
+.red{
+    background-color: rgb(255, 28, 28);
+    box-shadow: 0px 0px 50px rgb(255, 28, 28);
+}
+
+.yellow{
+    background-color: rgb(255, 213, 28);
+    box-shadow: 0px 0px 50px rgb(255, 213, 28);
+}
+
+.green{
+    background-color: rgb(28, 255, 39);
+    box-shadow: 0px 0px 50px rgb(28, 255, 39);
+}
+
+.disable{
+    background-color: rgb(30, 37, 46);
+    box-shadow: 0px 0px 10px rgb(147, 147, 147);
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.timer{
+    font-family: digital-7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 110px;
+    font-size: 110px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid rgb(255, 28, 28);
+    color: rgb(255, 28, 28);
+    box-shadow: 0px 0px 50px rgb(255, 28, 28);
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+.signal{
+   margin-top: 160px;
+   height: 100px;
+   width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.arrow {
+    border: solid green;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 50%;
+    
+  }
+  
+  .right {
+  
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: 90px;
+    background-color: rgb(7, 7, 7);
+    box-shadow: 0px 0px 50px rgb(28, 255, 39);
+  }
+
+  .left {
+
+    height: 90px;
+    background-color: rgb(7, 7, 7);
+    box-shadow: 0px 0px 50px rgb(28, 255, 39);
+  }
+  
